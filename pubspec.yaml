@@ -1,0 +1,31 @@
+name: my_clima
+description: A fast & reliable Flutter application.
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+dependencies:
+  geolocator: ^8.2.0
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  flutter_spinkit: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+  #   - images/a_dot_ham.jpeg
+
